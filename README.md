@@ -9,4 +9,4 @@
 </div>
 
 
-[Live Demo](https://praveenoruganti-contact-list.firebaseapp.com/)
+[Live Demo](https://praveenorugantitech.github.io/praveenorugantitech-contact-list-reactjs/)

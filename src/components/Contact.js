@@ -7,13 +7,13 @@ const Contact = (props) => {
     <div className="container">
       <div className="d-flex">
         <h1>Contact List</h1>
-        <Link to="/contacts/new">
+        <Link to="/praveenorugantitech-contact-list-reactjs/contacts/new">
           <button className="btn btn-success">Add Contact</button>
         </Link>
       </div>
       {props.contactList.map(user => (
         <li key={user.id}>
-          <Link to={`/contact/${user.id}`}>{user.name}</Link>
+          <Link to={`/praveenorugantitech-contact-list-reactjs/contact/${user.id}`}>{user.name}</Link>
         </li>
       ))}
     </div>

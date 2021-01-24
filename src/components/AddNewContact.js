@@ -77,7 +77,7 @@ export default class AddNewContact extends Component {
     }
 
     sendEvent('addNewContact', this.state);
-    this.props.history.push('/contact');
+    this.props.history.push('/praveenorugantitech-contact-list-reactjs/contact');
 
   }
 
@@ -85,7 +85,7 @@ export default class AddNewContact extends Component {
 
     return (
       <div className="container">
-        <Link to="/contact">Go Back</Link>
+        <Link to="/praveenorugantitech-contact-list-reactjs/contact">Go Back</Link>
         <Form className="contact-form">
           <h1 className="contact-header">Add new contact</h1>
           <div className="form-group">

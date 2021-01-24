@@ -13,18 +13,18 @@ class App extends Component {
     return (
       <BrowserRouter >
         <Switch>
-          <Route exact path="/" render={() => (
-            <Redirect to='/contact'></Redirect>
+          <Route exact path="/praveenorugantitech-contact-list-reactjs" render={() => (
+            <Redirect to='/praveenorugantitech-contact-list-reactjs/contact'></Redirect>
           )} />
           <Route
             exact
-            path="/contact"
+            path="/praveenorugantitech-contact-list-reactjs/contact"
             render={() => <Contacts contactList={this.props.contactList} />}
           />
-          <Route exact path="/contacts/new" component={AddNewContacts} />
+          <Route exact path="/praveenorugantitech-contact-list-reactjs/contacts/new" component={AddNewContacts} />
           <Route
             exact
-            path="/contact/:id"
+            path="/praveenorugantitech-contact-list-reactjs/contact/:id"
             render={(props) => <ViewContact {...props} contactList={this.props.contactList} />}
           />
         </Switch>

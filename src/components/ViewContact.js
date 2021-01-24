@@ -13,7 +13,7 @@ const ViewContact = ({ contactList, match: { params: { id } } }) => {
 
   return (
     <div className="container">
-      <Link to="/contact">Go Back</Link>
+      <Link to="/praveenorugantitech-contact-list-reactjs/contact">Go Back</Link>
       <div className="card">
         <img className="card-img-top" src={contactFound.image_url} alt="profile" />
         <h1 className="card-title">{contactFound.name}</h1>
