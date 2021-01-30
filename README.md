@@ -1,4 +1,4 @@
-# Contact List developed using React JS
+# Contact List developed using React JS and Bootstrap
 
 
 <div>
